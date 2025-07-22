@@ -26,7 +26,7 @@ noBtn.addEventListener("click", () => {
 yesBtn.addEventListener("click", () => {
   container.innerHTML = `
     <div class="text-with-gif">
-      <img src="/assets/ayiopucuk.gif" alt="Gif 2" class="overlay-gif" />
+      <img src="assets/ayiopucuk.gif" alt="Gif 2" class="overlay-gif" />
       <div class="son-message">Sənii çoxxx sevirəəmmm..❤️</div>
     </div>
   `;
