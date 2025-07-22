@@ -1,0 +1,74 @@
+.protest-font {
+  font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f8b6ba;
+  margin: 0;
+  font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.text-with-gif {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #630000;
+  margin: 0;
+  font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#yesBtn {
+  background-color: #16a34a;
+  color: white;
+}
+
+#noBtn {
+  background-color: #dc2626;
+  color: white;
+}
+
+.overlay-gif {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  pointer-events: none;
+  user-select: none;
+  z-index: 10;
+}
+
+.son-message {
+  font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #630000;
+  font-size: 4rem;
+  text-align: center;
+  user-select: none;
+  margin-top: 20vh;
+}
